@@ -1,7 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/linux,windows,macos,visualstudiocode,python,docker
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,windows,macos,visualstudiocode,python,docker
-
-#!! ERROR: docker is undefined. Use list command to see defined gitignore types !!#
+# Created by https://www.toptal.com/developers/gitignore/api/linux,windows,macos,visualstudiocode,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,windows,macos,visualstudiocode,python
 
 ### Linux ###
 *~
@@ -267,4 +265,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,windows,macos,visualstudiocode,python,docker
+# End of https://www.toptal.com/developers/gitignore/api/linux,windows,macos,visualstudiocode,python
