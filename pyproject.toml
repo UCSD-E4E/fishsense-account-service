@@ -15,8 +15,6 @@ requests = "^2.32.3"
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"
 
-
-
 [tool.poetry.group.prod.dependencies]
 gunicorn = "^22.0.0"
 

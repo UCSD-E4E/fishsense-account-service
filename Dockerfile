@@ -8,4 +8,4 @@ COPY . /app
 RUN poetry install --no-interaction --with prod
 RUN rm -rf /root/.cache/pypoetry
 
-CMD [ "gunicorn", "-w", "4", "fishsense_account_service:app" ]
+CMD [ "gunicorn", "-w", "4", "--bind", "0.0.0.0:8000", "fishsense_account_service:app" ]
