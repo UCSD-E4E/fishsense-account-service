@@ -1,0 +1,1 @@
+import fishsense_account_service.views.account
