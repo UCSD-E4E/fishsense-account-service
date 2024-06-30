@@ -10,6 +10,11 @@ from fishsense_account_service.app import app
 CLIENT_ID = "585544089882-2e8mni8kmbs39kekip1k6d09q5gjmqvv.apps.googleusercontent.com"
 
 
+@app.route("/")
+def ok():
+    return "ok"
+
+
 @app.post("/api/account")
 def verify_token():
     try:
